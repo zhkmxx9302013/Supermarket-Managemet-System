@@ -17,13 +17,13 @@ static char* SL_NAME;
 void addpassword(char answer[]);  //密码加密控制  
 
 void M_authority();               //版权说明函数   
-void SYM_user();									//用户管理界面菜单（判断权限）
-char * SL_read();									//用户名及密码读取判断
-void SYM_createUser();						//创建用户
-void SYM_deleteUser();						//删除用户
-void SYM_modify();								//更改用户信息
-void M_help();										//帮助
-void goto_xy(int x,int y);				//指针坐标调节函数
+void SYM_user();		  //用户管理界面菜单（判断权限）
+char * SL_read();		  //用户名及密码读取判断
+void SYM_createUser();		  //创建用户
+void SYM_deleteUser();		  //删除用户
+void SYM_modify();	          //更改用户信息
+void M_help();			  //帮助
+void goto_xy(int x,int y);	  //指针坐标调节函数
 
 
 //库存模块
